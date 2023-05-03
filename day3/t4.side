@@ -1,0 +1,308 @@
+{
+  "id": "5979c46f-dfb9-4bb4-be68-1def399b6d37",
+  "version": "2.0",
+  "name": "arun mama1",
+  "url": "https://demo.opencart.com",
+  "tests": [{
+    "id": "ad61a7aa-3d9a-4cc7-99cf-5af884c68029",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "2aa74801-4e16-4232-b18a-ce39916c2924",
+    "name": "c1",
+    "commands": [{
+      "id": "01a0e7f0-e45c-4603-a139-a6268bab7469",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9aa8ed4-15c7-4ac6-bc5b-ed144f138f17",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1108x864",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b40635e4-eab9-43ce-9d23-65b48d344b29",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mac (1)",
+      "targets": [
+        ["linkText=Mac (1)", "linkText"],
+        ["css=.nav-item:nth-child(1) li:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Mac (1)')]", "xpath:link"],
+        ["xpath=//div[@id='narbar-menu']/ul/li/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/index.php?route=product/category&language=en-gb&path=20_27')]", "xpath:href"],
+        ["xpath=//div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mac (1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43d29fcc-3d8a-4557-aba2-ebd3f21267b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.image .img-fluid",
+      "targets": [
+        ["css=.image .img-fluid", "css:finder"],
+        ["xpath=//img[@alt='iMac']", "xpath:img"],
+        ["xpath=//div[@id='product-list']/div/form/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//form/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07661e4a-d643-459a-9db9-2f128d0f0fb1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=a > .mb-3",
+      "targets": [
+        ["css=a > .mb-3", "css:finder"],
+        ["xpath=//img[@alt='iMac']", "xpath:img"],
+        ["xpath=//div[@id='content']/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8888b21c-8e54-430b-90b5-caa9b61c8f4c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=a > .mb-3",
+      "targets": [
+        ["css=a > .mb-3", "css:finder"],
+        ["xpath=//img[@alt='iMac']", "xpath:img"],
+        ["xpath=//div[@id='content']/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "002e99aa-d270-46f5-8185-01686fd1b061",
+    "name": "c2",
+    "commands": [{
+      "id": "eb62766b-b979-4cff-b766-37e4a4b41a81",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89e5d95d-f72d-4ae3-a392-09e11fd2cc03",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1108x864",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65694349-8353-498a-a203-2d77dc16e40f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Phones & PDAs",
+      "targets": [
+        ["linkText=Phones & PDAs", "linkText"],
+        ["css=.nav-item:nth-child(6) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Phones & PDAs')]", "xpath:link"],
+        ["xpath=//div[@id='narbar-menu']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/index.php?route=product/category&language=en-gb&path=24')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Phones & PDAs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07611796-e0b2-4a28-b2f1-2e263f94fc8e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=button-list",
+      "targets": [
+        ["id=button-list", "id"],
+        ["css=#button-list", "css:finder"],
+        ["xpath=//button[@id='button-list']", "xpath:attributes"],
+        ["xpath=//div[@id='display-control']/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7dd4c2c-a874-44c6-b487-7daa58935e17",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=button-list",
+      "targets": [
+        ["id=button-list", "id"],
+        ["css=#button-list", "css:finder"],
+        ["xpath=//button[@id='button-list']", "xpath:attributes"],
+        ["xpath=//div[@id='display-control']/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3af61af7-3aa2-4da8-a089-bf3fc0edb6f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col:nth-child(1) .img-fluid",
+      "targets": [
+        ["css=.col:nth-child(1) .img-fluid", "css:finder"],
+        ["xpath=//img[@alt='HTC Touch HD']", "xpath:img"],
+        ["xpath=//div[@id='product-list']/div/form/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//form/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6de6e94d-1a34-4317-8841-8f39bb0d538b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm:nth-child(2)",
+      "targets": [
+        ["css=.col-sm:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2374881e-c728-4aff-8570-10c78184983c",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'HTC Touch HD')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8abd5495-feba-4da8-b5b5-b8282a2beb8c",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'HTC Touch HD')]", "xpath:innerText"]
+      ],
+      "value": "var"
+    }, {
+      "id": "8e144be9-8450-414a-841e-61e3b1f401be",
+      "comment": "",
+      "command": "echo",
+      "target": "${var}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "736cbaca-6b91-4494-94f1-4ef3574ed4f5",
+    "name": "c3",
+    "commands": [{
+      "id": "1f9f8182-afd1-4e79-ac5a-7d405135d2a9",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.opencart.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c0b64d9-5660-4067-afd2-fa36752f4bf7",
+      "comment": "",
+      "command": "store",
+      "target": "Your Store",
+      "targets": [],
+      "value": "title"
+    }, {
+      "id": "de0bab9c-b9d9-419b-92a2-20557027806e",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "${title}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d5616119-45f1-48d0-a70d-db3f53b8a204",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return document.URL",
+      "targets": [],
+      "value": "url"
+    }, {
+      "id": "9476cf8b-457d-48fa-84a5-9e6e9a8033a1",
+      "comment": "",
+      "command": "verify",
+      "target": "url",
+      "targets": [],
+      "value": "https://demo.opencart.com/"
+    }]
+  }, {
+    "id": "fa4b81a9-63f3-49e7-abb5-51748f6ffecf",
+    "name": "c4",
+    "commands": [{
+      "id": "24c43a7d-4503-4aca-afae-cc15521393ba",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1897387-41f6-41ec-8648-0371472b4570",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1108x864",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "940df30c-8ab9-4fb1-99af-acfa7d388521",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Phones & PDAs",
+      "targets": [
+        ["linkText=Phones & PDAs", "linkText"],
+        ["css=.nav-item:nth-child(6) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Phones & PDAs')]", "xpath:link"],
+        ["xpath=//div[@id='narbar-menu']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/index.php?route=product/category&language=en-gb&path=24')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Phones & PDAs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f2a2d91-80a8-4331-92df-906c788410b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col:nth-child(1) .img-fluid",
+      "targets": [
+        ["css=.col:nth-child(1) .img-fluid", "css:finder"],
+        ["xpath=//img[@alt='HTC Touch HD']", "xpath:img"],
+        ["xpath=//div[@id='product-list']/div/form/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//form/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d86ce848-7ef7-4483-813c-75a306cf05b1",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-cart",
+      "targets": [
+        ["id=button-cart", "id"],
+        ["css=#button-cart", "css:finder"],
+        ["xpath=//button[@id='button-cart']", "xpath:attributes"],
+        ["xpath=//form[@id='form-product']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94a8caed-114b-4ae4-9843-31c5254d2069",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=alert",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b3fedc16-0409-440c-bc16-00d5a341e161",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ad61a7aa-3d9a-4cc7-99cf-5af884c68029"]
+  }],
+  "urls": ["https://demo.opencart.com/"],
+  "plugins": []
+}
